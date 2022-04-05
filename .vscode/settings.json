@@ -1,0 +1,5 @@
+{
+  "jest.jestCommandLine": "yarn test",
+  "svg.preview.background": "transparent"
+  // "jest.autoRun": {"watch": false, "onSave": "test-file", "onStartup": ["all-tests"]}
+}

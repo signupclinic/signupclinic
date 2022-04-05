@@ -1,0 +1,23 @@
+{
+  "name": "mail-templates",
+  "types": "./dist/index.d.ts",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch --incremental --preserveWatchOutput"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.0",
+    "nodemailer": "^6.7.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.23",
+    "@types/nodemailer": "^6.4.4",
+    "typescript": "^4.6.3"
+  },
+  "author": "Jacob Clarke",
+  "repository": "https://github.com/jacobaclarke/clarke.git",
+  "packageManager": "yarn@3.2.0"
+}

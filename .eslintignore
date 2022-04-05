@@ -1,0 +1,13 @@
+mongoose.d.ts
+build
+node_modules
+.next
+.github
+dist
+generated.ts
+illscripts/
+public
+logos
+*generated.ts
+gulpfile.js
+jest.config.js

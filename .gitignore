@@ -1,0 +1,57 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+globalConfig.json
+# dependencies
+node_modules
+vercel.log
+/.serverless
+/.serverless_nextjs
+.yarn/*
+!.yarn/cache
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+dist
+# testing
+/coverage
+**/signupclinic/emails
+**/signupclinic-landing/emails
+# next.js
+.next/
+out/
+# production
+build
+*generated*
+**/cypress/videos
+**/cypress/downloads
+**/cypress/screenshots
+# misc
+.DS_Store
+*.pem
+public/**/*js
+.env
+*.pyc
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# vercel
+.vercel
+
+
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+coverage

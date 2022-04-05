@@ -1,0 +1,30 @@
+{
+  "name": "@j718/apollo-utils",
+  "description": "Utilities for Apollo to Make Mutations simpler",
+  "version": "1.0.0",
+  "author": "Jacob Clarke",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch --incremental --preserveWatchOutput"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.5.10",
+    "apollo-server": "^2.25.3",
+    "apollo-server-integration-testing": "^3.0.0",
+    "apollo-server-micro": "^3.5.0",
+    "micro-cors": "^0.1.1",
+    "net": "^1.0.2",
+    "notistack": "^2.0.3",
+    "tls": "^0.0.1",
+    "up": "^1.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.23",
+    "typescript": "^4.6.3"
+  },
+  "repository": "https://github.com/jacobaclarke/clarke.git",
+  "license": "ISC",
+  "packageManager": "yarn@3.2.0"
+}

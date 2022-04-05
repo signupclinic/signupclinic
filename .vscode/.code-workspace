@@ -1,0 +1,16 @@
+{
+  "folders": [
+    {
+      "name": "ROOT",
+      "path": "../"
+    },
+    {
+      "name": "signupclinic",
+      "path": "../packages/signupclinic"
+    },
+    {
+      "path": "../packages/fishbowl"
+    }
+  ],
+  "settings": {}
+}
